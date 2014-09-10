@@ -10,8 +10,7 @@
   <project remote="yocto" revision="daisy" name="poky" path="sources/poky"/>
   <project remote="oe" revision="daisy" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="yocto" revision="daisy" name="meta-raspberrypi" path="sources/meta-raspberrypi">
+  <project remote="yocto" revision="daisy" name="meta-raspberrypi" path="sources/meta-raspberrypi">>
 
   <project remote="github" revision="daisy" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
 </manifest>
-
