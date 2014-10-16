@@ -11,7 +11,10 @@
   <project remote="oe" revision="daisy" name="meta-openembedded" path="sources/meta-openembedded"/>
 
   <project remote="yocto" revision="daisy" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
-  <project remote="github" revision="master" name="frznlogic/rpi-wayland-qt5-bsp" path="sources/rpi-wayland-qt5-bsp"/>
+  <project remote="github" revision="master" name="frznlogic/rpi-wayland-qt5-bsp" path="sources/rpi-wayland-qt5-bsp">
+	<copyfile dest="setup-environment" src="setup-environment"/>
+	<copyfile dest="README" src="README"/>
+  </project>
 
   <project remote="github" revision="daisy" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
 </manifest>
