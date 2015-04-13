@@ -11,6 +11,7 @@
   <project remote="oe" revision="daisy" name="meta-openembedded" path="sources/meta-openembedded"/>
 
   <project remote="yocto" revision="daisy" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+  <project remote="yocto" revision="master" name="meta-cloud-services" path="sources/meta-cloud-services"/>
   <project remote="github" revision="master" name="frznlogic/rpi-wayland-qt5-bsp" path="sources/rpi-wayland-qt5-bsp">
 	<copyfile dest="setup-environment" src="setup-environment"/>
 	<copyfile dest="README" src="README"/>
