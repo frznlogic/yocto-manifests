@@ -1,4 +1,4 @@
-rpi-wayland-qt5
+yocto-manifests
 ===============
 
 This repository contain repo tool manifests which can be used to download
@@ -29,7 +29,7 @@ these instructions:
 ```
 mkdir ~/frozenmirror
 cd ~/frozenmirror
-repo init -u https://github.com/frznlogic/rpi-wayland-qt5.git -b master -m frozenmirror.xml
+repo init -u https://github.com/frznlogic/yocto-manifests.git -b master -m frozenmirror.xml
 . setup-environment build
 vi conf/local.conf
 ```
@@ -40,7 +40,7 @@ using a raspberrypi1 or raspberrypi2).
 ```
 bitbake -k frozenmirror-image
 dd \
-if=tmp-glibc/deploy/images/raspberrypi/rpi-wayland-qt5-image-raspberrypi.rpi-sdimg \
+if=tmp-glibc/deploy/images/raspberrypi/frozenmirror-image-raspberrypi.rpi-sdimg \
 of=/dev/<device> bs=1024
 ```
 
