@@ -14,7 +14,7 @@
   <project remote="yocto" revision="jethro" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
  <!-- <project remote="yocto" revision="master" name="meta-cloud-services"
  path="sources/meta-cloud-services"/>-->
-  <project remote="github" revision="master" name="frznlogic/meta-rpi-qt5" path="sources/meta-rpi-qt5">
+  <project remote="github" revision="master" name="frznlogic/meta-frozenmirror" path="sources/meta-frozenmirror">
 	<copyfile dest="setup-environment" src="setup-environment"/>
 	<copyfile dest="README" src="README"/>
   </project>
