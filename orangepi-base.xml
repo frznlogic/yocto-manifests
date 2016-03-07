@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="4"/>
+
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="git://github.com" name="github"/>
+  <remote fetch="git://git.linaro.org/" name="linaro"/>
+
+  <project remote="yocto" revision="jethro" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="jethro" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="github" revision="jethro" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
+
+ <!-- <project remote="yocto" revision="jethro" name="meta-raspberrypi" path="sources/meta-raspberrypi"/> -->
+ <!-- <project remote="yocto" revision="master" name="meta-cloud-services"
+ path="sources/meta-cloud-services"/>-->
+  <project remote="github" revision="jethro" name="robojan/meta-orangepiplus" path="sources/meta-orangepiplus" />
+<!--	  <copyfile dest="setup-environment" src="setup-environment"/>
+	  <copyfile dest="README" src="README"/>
+  </project>
+-->
+
+</manifest>
