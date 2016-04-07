@@ -30,6 +30,7 @@ these instructions:
 mkdir ~/frozenmirror
 cd ~/frozenmirror
 repo init -u https://github.com/frznlogic/yocto-manifests.git -b master -m frozenmirror.xml
+repo sync
 . setup-environment build
 vi conf/local.conf
 ```
